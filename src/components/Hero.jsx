@@ -80,19 +80,21 @@ export default function Hero() {
             </a>
           </div>
 
-          <div className="hero-card mini-card card-a">
-            <div className="mini-icon" style={{background:'#dbeafe'}}>💊</div>
-            <div>
-              <div className="mini-label">Prescription Ready</div>
-              <div className="mini-sub">Fast 30-min fulfillment</div>
+          <div className="mini-cards-row">
+            <div className="hero-card mini-card">
+              <div className="mini-icon" style={{background:'#dbeafe'}}>💊</div>
+              <div>
+                <div className="mini-label">Prescription Ready</div>
+                <div className="mini-sub">Fast 30-min fulfillment</div>
+              </div>
             </div>
-          </div>
 
-          <div className="hero-card mini-card card-b">
-            <div className="mini-icon" style={{background:'#d1fae5'}}>❤️</div>
-            <div>
-              <div className="mini-label">Health Checks</div>
-              <div className="mini-sub">BP & Blood Sugar</div>
+            <div className="hero-card mini-card">
+              <div className="mini-icon" style={{background:'#d1fae5'}}>❤️</div>
+              <div>
+                <div className="mini-label">Health Checks</div>
+                <div className="mini-sub">BP & Blood Sugar</div>
+              </div>
             </div>
           </div>
         </div>

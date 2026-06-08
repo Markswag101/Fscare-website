@@ -45,7 +45,7 @@ export default function WhyChoose() {
       <div className="container">
         <div className="section-header">
           <span className="section-label">Why FS Care</span>
-          <h2 className="section-title">Healthcare You Can<br />Actually Trust</h2>
+          <h2 className="section-title">Healthcare You Can<br /><span style={{color:"var(--orange)"}}>Actually Trust</span></h2>
         </div>
 
         <div className="why-grid">
@@ -63,7 +63,7 @@ export default function WhyChoose() {
         <div className="testimonials-section">
           <div className="section-header" style={{marginTop:64}}>
             <span className="section-label">Patient Stories</span>
-            <h2 className="section-title">What Our Customers Say</h2>
+            <h2 className="section-title"><span style={{color:"var(--orange)"}}>What Our Customers Say</span></h2>
           </div>
           <div className="testi-grid">
             {testimonials.map((t, i) => (

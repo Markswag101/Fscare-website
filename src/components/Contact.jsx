@@ -25,7 +25,7 @@ export default function Contact() {
       <div className="container">
         <div className="contact-top">
           <span className="section-label">Get In Touch</span>
-          <h2 className="section-title">We're Here When<br />You Need Us</h2>
+          <h2 className="section-title">We're Here When<br /><span style={{color:"var(--orange)"}}>You Need Us</span></h2>
           <p className="section-sub">
             Have a question about your prescription, a product, or your health?
             Reach out — our team responds quickly.
@@ -55,16 +55,17 @@ export default function Contact() {
             <div className="social-row">
               <span className="info-label">Follow Us</span>
               <div className="social-links">
-                {['Facebook', 'Instagram', 'Twitter', 'LinkedIn'].map(s => (
-                  <a key={s} href="#contact" className="social-pill">{s}</a>
-                ))}
+                <a href="https://www.facebook.com/FS.care" target="_blank" rel="noreferrer" className="social-pill">Facebook</a>
+                <a href="https://www.instagram.com/fs.cares" target="_blank" rel="noreferrer" className="social-pill">Instagram</a>
+                <a href="https://x.com/fs_cares" target="_blank" rel="noreferrer" className="social-pill">Twitter / X</a>
+                <a href="https://www.tiktok.com/@fs.care" target="_blank" rel="noreferrer" className="social-pill">TikTok</a>
               </div>
             </div>
 
             <div className="map-placeholder">
               <MapPin size={28} color="var(--blue-400)" />
               <p>Visit us at 2, Ijero Street, off Nnobi Kilo, Surulere, Lagos</p>
-              <a href="https://maps.google.com" target="_blank" rel="noreferrer" className="btn btn-outline" style={{marginTop:'12px', fontSize:'13px', padding:'9px 18px'}}>
+              <a href="https://maps.app.goo.gl/zN24LE4jV9xhY57PA" target="_blank" rel="noreferrer" className="btn btn-outline" style={{marginTop:'12px', fontSize:'13px', padding:'9px 18px'}}>
                 Open in Maps
               </a>
             </div>

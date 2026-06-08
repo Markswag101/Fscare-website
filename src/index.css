@@ -6,6 +6,9 @@
   --blue-500: #3b82f6;
   --blue-100: #dbeafe;
   --blue-50:  #eff6ff;
+  --orange: #f97316;
+  --orange-dark: #ea580c;
+  --orange-light: #fff7ed;
   --white: #ffffff;
   --gray-50: #f8fafc;
   --gray-100: #f1f5f9;
@@ -150,4 +153,14 @@ a { text-decoration: none; color: inherit; }
 @media (max-width: 640px) {
   .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
   .section { padding: 60px 0; }
+}
+
+/* Orange accent overrides */
+.btn-primary { background: var(--blue-600); }
+.btn-primary:hover { background: var(--orange); box-shadow: 0 4px 20px rgba(249,115,22,0.3); }
+
+.section-label {
+  color: var(--orange-dark);
+  background: var(--orange-light);
+  border-color: #fed7aa;
 }

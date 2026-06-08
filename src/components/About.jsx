@@ -27,7 +27,7 @@ export default function About() {
           <div className="about-content">
             <span className="section-label">Who We Are</span>
             <h2 className="section-title">
-              A Pharmacy Built on<br />Trust & Excellence
+              A Pharmacy Built on<br /><span style={{color:"var(--orange)"}}>Trust & Excellence</span>
             </h2>
             <p className="section-sub" style={{marginBottom:28}}>
               FS Care is a trusted pharmacy and healthcare provider committed

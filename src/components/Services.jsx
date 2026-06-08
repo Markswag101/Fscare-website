@@ -50,7 +50,7 @@ export default function Services() {
       <div className="container">
         <div className="section-header">
           <span className="section-label">What We Offer</span>
-          <h2 className="section-title">Comprehensive Healthcare<br />Under One Roof</h2>
+          <h2 className="section-title">Comprehensive Healthcare<br /><span style={{color:"var(--orange)"}}>Under One Roof</span></h2>
           <p className="section-sub">
             From prescription fulfillment to wellness coaching — FS Care covers every
             dimension of your health journey.

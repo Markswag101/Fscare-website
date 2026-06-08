@@ -66,7 +66,7 @@ export default function Blog() {
         <div className="blog-top">
           <div>
             <span className="section-label">Health Education Hub</span>
-            <h2 className="section-title">Knowledge Is the<br />Best Medicine</h2>
+            <h2 className="section-title">Knowledge Is the<br /><span style={{color:"var(--orange)"}}>Best Medicine</span></h2>
             <p className="section-sub">
               Expert articles, guides, and health tips from our pharmaceutical team —
               empowering you to make informed decisions about your health.

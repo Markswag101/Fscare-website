@@ -18,7 +18,7 @@ export default function Products() {
         <div className="products-top">
           <div>
             <span className="section-label">Our Products</span>
-            <h2 className="section-title">Everything Your<br />Health Needs</h2>
+            <h2 className="section-title">Everything Your<br /><span style={{color:"var(--orange)"}}>Health Needs</span></h2>
             <p className="section-sub">
               All products sourced from certified manufacturers and authorized
               distributors — quality you can trust.
